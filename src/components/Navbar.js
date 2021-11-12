@@ -7,7 +7,11 @@ import SocialLinks from '../constants/socialLinks'
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="nav-center"></div>
+      <div className="nav-center">
+        <div className="nav-header">
+          <Link></Link>
+        </div>
+      </div>
     </nav>
   )
 }
