@@ -5,9 +5,7 @@ import logo from '../assets/logo.svg'
 import Links from '../constants/links'
 import SocialLinks from '../constants/socialLinks'
 const Navbar = () => {
-  return (
-    <h4>navbar component</h4>
-  )
+  return <nav>navbar component</nav>
 }
 
 export default Navbar
