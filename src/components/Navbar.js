@@ -5,7 +5,7 @@ import logo from '../assets/logo.svg'
 import Links from '../constants/links'
 import SocialLinks from '../constants/socialLinks'
 const Navbar = () => {
-  return <nav>navbar component</nav>
+  return <nav className="navbar">navbar component</nav>
 }
 
 export default Navbar
