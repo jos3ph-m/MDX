@@ -9,7 +9,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <Link to="/" className="nav-logo"></Link>
+          <Link to="/" className="nav-logo">
+            <img src={logo} alt="mdx logo" />
+          </Link>
         </div>
       </div>
     </nav>
