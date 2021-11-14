@@ -6,7 +6,9 @@ import { IoMdClose } from 'react-icons/io'
 const Sidebar = () => {
   return (
     <aside className={`sidebar`}>
-      <button className="close-btn"></button>
+      <button className="close-btn">
+        <IoMdClose />
+      </button>
     </aside>
   )
 }
