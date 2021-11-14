@@ -9,6 +9,7 @@ const Sidebar = () => {
       <button className="close-btn">
         <IoMdClose />
       </button>
+      <div></div>
     </aside>
   )
 }
