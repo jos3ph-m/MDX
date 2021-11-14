@@ -17,6 +17,7 @@ const Navbar = () => {
           </button>
         </div>
         <Links styleClass="nav-links"></Links>
+        <SocialLinks styleClass="nav-icons"></SocialLinks>
       </div>
     </nav>
   )
