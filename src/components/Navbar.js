@@ -11,7 +11,9 @@ const Navbar = () => {
         <div className="nav-header">
           <Link to="/" className="nav-logo">
             <img src={logo} alt="mdx logo" />
-            <button className="toggle-btn"></button>
+            <button className="toggle-btn">
+              <FaBars />
+            </button>
           </Link>
         </div>
       </div>
