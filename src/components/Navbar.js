@@ -11,10 +11,10 @@ const Navbar = () => {
         <div className="nav-header">
           <Link to="/" className="nav-logo">
             <img src={logo} alt="mdx logo" />
-            <button className="toggle-btn">
-              <FaBars />
-            </button>
           </Link>
+          <button className="toggle-btn">
+            <FaBars />
+          </button>
         </div>
       </div>
     </nav>
