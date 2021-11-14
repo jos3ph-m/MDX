@@ -11,6 +11,7 @@ const Navbar = () => {
         <div className="nav-header">
           <Link to="/" className="nav-logo">
             <img src={logo} alt="mdx logo" />
+            <button></button>
           </Link>
         </div>
       </div>
