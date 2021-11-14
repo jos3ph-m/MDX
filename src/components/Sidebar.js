@@ -9,7 +9,9 @@ const Sidebar = () => {
       <button className="close-btn">
         <IoMdClose />
       </button>
-      <div className="sidebar-container"></div>
+      <div className="sidebar-container">
+        <Links styleClass="sidebar-links" />
+      </div>
     </aside>
   )
 }
