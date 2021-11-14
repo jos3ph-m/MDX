@@ -4,7 +4,7 @@ import Categories from '../components/Categories'
 import { IoMdClose } from 'react-icons/io'
 
 const Sidebar = () => {
-  return <aside>sidebar component</aside>
+  return <aside></aside>
 }
 
 export default Sidebar
