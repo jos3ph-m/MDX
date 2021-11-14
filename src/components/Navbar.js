@@ -16,6 +16,7 @@ const Navbar = () => {
             <FaBars />
           </button>
         </div>
+        <Links></Links>
       </div>
     </nav>
   )
