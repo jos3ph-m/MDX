@@ -9,7 +9,7 @@ const Sidebar = () => {
       <button className="close-btn">
         <IoMdClose />
       </button>
-      <div></div>
+      <div className="sidebar-container"></div>
     </aside>
   )
 }
