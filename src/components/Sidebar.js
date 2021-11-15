@@ -5,7 +5,7 @@ import { IoMdClose } from 'react-icons/io'
 
 const Sidebar = ({ isOpus }) => {
   return (
-    <aside className={`sidebar showSidebar`}>
+    <aside className={`sidebar ${isOpen ? 'showSidebar' : ''}`}>
       <button className="close-btn">
         <IoMdClose />
       </button>
