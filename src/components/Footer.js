@@ -1,9 +1,7 @@
 import React from 'react'
 import SocialLinks from '../constants/socialLinks'
 const Footer = () => {
-  return (
-    <h4>footer component</h4>
-  )
+  return <footer>footer component</footer>
 }
 
 export default Footer
