@@ -8,6 +8,7 @@ const Hero = () => {
         src="../assets/person.png"
         placeholder="blurred"
         className="hero-person"
+        alt="person typing"
       />
     </header>
   )
