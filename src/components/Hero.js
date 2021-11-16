@@ -2,9 +2,7 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const Hero = () => {
-  return (
-    <h4>hero component</h4>
-  )
+  return <header>hero component</header>
 }
 
 export default Hero
