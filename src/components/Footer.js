@@ -3,7 +3,9 @@ import SocialLinks from '../constants/socialLinks'
 const Footer = () => {
   return (
     <footer className="footer">
-      <div></div>
+      <div>
+        <SocialLinks />
+      </div>
     </footer>
   )
 }
