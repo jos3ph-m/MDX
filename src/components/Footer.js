@@ -5,6 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div>
         <SocialLinks styleClass="footer-icons" />
+        <p></p>
       </div>
     </footer>
   )
