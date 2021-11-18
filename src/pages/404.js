@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 
 const NotFoundPage = () => (
   <Layout>
-    <section></section>
+    <section className="error-page"></section>
   </Layout>
 )
 
