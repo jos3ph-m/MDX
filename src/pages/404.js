@@ -5,7 +5,9 @@ import Layout from '../components/Layout'
 const NotFoundPage = () => (
   <Layout>
     <section className="error-page">
-      <div className="page-center"></div>
+      <div className="page-center">
+        <span></span>
+      </div>
     </section>
   </Layout>
 )
