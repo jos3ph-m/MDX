@@ -6,7 +6,7 @@ const NotFoundPage = () => (
   <Layout>
     <section className="error-page">
       <div className="page-center">
-        <span></span>
+        <span>404</span>
       </div>
     </section>
   </Layout>
