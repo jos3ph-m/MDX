@@ -4,7 +4,9 @@ const NewsLetter = () => {
   return (
     <Layout>
       <section className="newsletter-page">
-        <div className="page-center"></div>
+        <div className="page-center">
+          <h2></h2>
+        </div>
       </section>
     </Layout>
   )
