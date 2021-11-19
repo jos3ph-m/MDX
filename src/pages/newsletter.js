@@ -14,6 +14,12 @@ const NewsLetter = () => {
               placeholder="Your name"
               className="form-control"
             />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email"
+              className="form-control"
+            />
           </form>
         </div>
       </section>
