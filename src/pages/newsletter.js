@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 const NewsLetter = () => {
   return (
     <Layout>
-      <section></section>
+      <section className=""></section>
     </Layout>
   )
 }
