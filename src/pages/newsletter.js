@@ -20,6 +20,9 @@ const NewsLetter = () => {
               placeholder="Your email"
               className="form-control"
             />
+            <button type="submit" className="btn form-control submit-btn">
+              subscribe
+            </button>
           </form>
         </div>
       </section>
