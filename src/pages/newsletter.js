@@ -15,6 +15,7 @@ const NewsLetter = () => {
             data-netlify="true"
             action="/success"
           >
+            <input type="hidden" name="bot-field" />
             <input
               type="text"
               name="name"
