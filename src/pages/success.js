@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 const Success = () => {
   return (
     <Layout>
-      <section></section>
+      <section className="success-page"></section>
     </Layout>
   )
 }
