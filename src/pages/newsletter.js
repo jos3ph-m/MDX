@@ -7,7 +7,12 @@ const NewsLetter = () => {
         <div className="page-center">
           <h2>Get all the latest stories to your inbox</h2>
           <h4>I wrote to my friends every few weeks</h4>
-          <form className="contact-form" name="testing-contact" method="post">
+          <form
+            className="contact-form"
+            name="testing-contact"
+            method="post"
+            netlify-honeypot="bot-field"
+          >
             <input
               type="text"
               name="name"
