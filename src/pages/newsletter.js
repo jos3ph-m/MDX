@@ -16,6 +16,7 @@ const NewsLetter = () => {
             action="/success"
           >
             <input type="hidden" name="bot-field" />
+            <input type="text" />
             <input
               type="text"
               name="name"
