@@ -1,3 +1,3 @@
 # GATSBY MDX BLOG
 
-coming soon!
+coming soon
