@@ -1,0 +1,62 @@
+import { Link } from 'gatsby'
+import { FiInfo } from 'react-icons/fi'
+import { Counter, Like } from '../components/Complete'
+
+<section className="mdx-page">
+
+## my first mdx file
+
+**Helvetica vice post-ironic schlitz.** Try-hard mlkshk enamel pin craft beer, small batch bespoke salvia mixtape tote bag viral 3 wolf moon fanny pack hell of church-key iPhone. Tote bag lomo sustainable squid. Waistcoat meggings shoreditch edison bulb woke paleo, taiyaki hoodie. _Shaman synth biodiesel small batch taxidermy readymade master cleanse hella messenger bag vegan YOLO fanny pack._
+
+<div className="code">
+  
+  ```js 
+  const firstName = 'joseph' 
+  const lastName = 'medina' 
+  ```
+
+</div>
+
+<div className="nice-text">
+
+<h3>nice text</h3>
+
+<FiInfo className="nice-text-icon"></FiInfo>
+
+I'm baby seitan lo-fi retro cred. Heirloom freegan chicharrones, deep v drinking vinegar roof party wolf iceland bicycle rights marfa direct trade 3 wolf moon leggings. Man braid pork belly messenger bag brooklyn readymade gastropub. Raclette plaid umami pop-up direct trade.
+
+</div>
+
+<h2> React Components </h2>
+<Counter />
+
+```jsx
+import React from 'react'
+import styled from 'styled-components'
+import { AiOutlineLike } from 'react-icons/ai'
+const LikeButton = () => {
+  const [value, setValue] = React.useState(0)
+  return (
+    <Wrapper>
+      <div>
+        <button onClick={() => setValue(value + 1)}>
+          <AiOutlineLike />
+        </button>
+        <p>
+          Liked the post?
+          <br />
+          Click thumbs up few times
+        </p>
+      </div>
+      <span>+{value}</span>
+    </Wrapper>
+  )
+}
+```
+
+<LinkButton />
+
+<Link to="/posts" className="btn center-btn">
+  all posts
+</Link>
+</section>
