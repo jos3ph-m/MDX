@@ -12,6 +12,9 @@ const Posts = ({ posts, title }) => {
             return <Post key={post.id} {...post} />
           })}
         </article>
+        <article>
+          <Banner />
+        </article>
       </div>
     </section>
   )
