@@ -9,7 +9,7 @@ const Posts = ({ posts, title }) => {
         {/* posts column */}
         <article>
           {posts.map(post => {
-            return <Post key={post.id} />
+            return <Post key={post.id} {...post} />
           })}
         </article>
       </div>
