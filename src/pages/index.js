@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <Hero showPerson />
-      <Posts posts={posts} />
+      <Posts posts={posts} title="recently published" />
     </Layout>
   )
 }
