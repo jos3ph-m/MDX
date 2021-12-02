@@ -4,7 +4,7 @@ import Banner from '../Banner'
 const Posts = ({ posts, title }) => {
   return (
     <section className="posts">
-      <h3 className="posts-title"></h3>
+      <h3 className="posts-title">{title}</h3>
     </section>
   )
 }
