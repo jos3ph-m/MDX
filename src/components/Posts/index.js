@@ -5,6 +5,7 @@ const Posts = ({ posts, title }) => {
   return (
     <section className="posts">
       <h3 className="posts-title">{title}</h3>
+      <div className="posts-center"></div>
     </section>
   )
 }
