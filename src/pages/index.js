@@ -9,6 +9,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <Hero showPerson />
+      <Posts />
     </Layout>
   )
 }
