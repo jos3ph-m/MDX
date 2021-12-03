@@ -6,7 +6,7 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 const Post = ({ exerpt, frontmatter }) => {
-  const { title, image, slug, date, category, readTime }
+  const { title, image, slug, date, category, readTime } = frontmatter
   return <h4>single post</h4>
 }
 
