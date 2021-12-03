@@ -13,6 +13,8 @@ const Post = ({ exerpt, frontmatter }) => {
       <div className="info">
         <span className="category">{category}</span>
         <h3>{title}</h3>
+        <div className="underline"></div>
+        <p>{excerpt}</p>
       </div>
     </Wrapper>
   )
