@@ -5,7 +5,9 @@ import { graphql } from 'gatsby'
 import Posts from '../components/Posts'
 const PostsPage = ({ data }) => {
   connst {allMdx: {nodes: posts}} = data
-  return <Layout></Layout>
+  return <Layout>
+    <Hero />
+  </Layout>
 }
 
 export const query = graphql`
