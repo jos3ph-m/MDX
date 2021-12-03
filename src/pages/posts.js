@@ -19,6 +19,7 @@ export const query = graphql`
   {
     allMdx(sort: { fields: frontmatter___date, order: DESC }) {
       nodes {
+        id
         frontmatter {
           title
           author
