@@ -4,9 +4,30 @@ import Hero from '../components/Hero'
 import { graphql } from 'gatsby'
 import Posts from '../components/Posts'
 const PostsPage = () => {
-return <h4>posts page</h4>
+  return <h4>posts page</h4>
 }
 
-
+export const query = graphql`
+  {
+    allMdx(sort: { fields: frontmatter___date, order: DESC }) {
+      nodes {
+        frontmatter {
+          title
+          author
+          category
+          readTime
+          slug
+          date(formatString: "MMMM, Do YYYY")
+          image {
+            childrenImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+        excerpt
+      }
+    }
+  }
+`
 
 export default PostsPage
