@@ -7,7 +7,7 @@ import styled from 'styled-components'
 
 const Post = ({ exerpt, frontmatter }) => {
   const { title, image, slug, date, category, readTime } = frontmatter
-  return <h4>single post</h4>
+  return <Wrapper>single post</Wrapper>
 }
 
 const Wrapper = styled.article`
