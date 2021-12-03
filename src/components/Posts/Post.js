@@ -5,7 +5,7 @@ import { IoMdArrowRoundForward } from 'react-icons/io'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 
-const Post = ({ exerpt, frontmatter }) => {
+const Post = ({ excerpt, frontmatter }) => {
   const { title, image, slug, date, category, readTime } = frontmatter
   return (
     <Wrapper>
