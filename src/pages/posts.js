@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 import { graphql } from 'gatsby'
 import Posts from '../components/Posts'
 const PostsPage = ({ data }) => {
-  connst {allMdx}
+  connst {allMdx: {nodes: posts}} = data
   return <h4>posts page</h4>
 }
 
