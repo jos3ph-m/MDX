@@ -5,7 +5,7 @@ import { IoMdArrowRoundForward } from 'react-icons/io'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 
-const Post = props => {
+const Post = ({ exerpt, frontmatter }) => {
   console.log(props)
   return <h4>single post</h4>
 }
