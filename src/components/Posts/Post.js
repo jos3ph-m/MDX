@@ -5,8 +5,8 @@ import { IoMdArrowRoundForward } from 'react-icons/io'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 
-const Post = () => {
-  console.log()
+const Post = props => {
+  console.log(props)
   return <h4>single post</h4>
 }
 
