@@ -10,7 +10,9 @@ const Post = ({ exerpt, frontmatter }) => {
   return (
     <Wrapper>
       <GatsbyImage image={getImage(image)} alt={title} className="img" />
-      <div className="info"></div>
+      <div className="info">
+        <span className="category"></span>
+      </div>
     </Wrapper>
   )
 }
