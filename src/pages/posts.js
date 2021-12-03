@@ -7,7 +7,7 @@ const PostsPage = ({ data }) => {
   connst {allMdx: {nodes: posts}} = data
   return <Layout>
     <Hero />
-    <Posts posts={posts}></Posts>
+    <Posts posts={posts} title="all posts"/>
   </Layout>
 }
 
