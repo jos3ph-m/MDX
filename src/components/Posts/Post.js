@@ -7,7 +7,11 @@ import styled from 'styled-components'
 
 const Post = ({ exerpt, frontmatter }) => {
   const { title, image, slug, date, category, readTime } = frontmatter
-  return <Wrapper></Wrapper>
+  return (
+    <Wrapper>
+      <GatsbyImage image={getImage(image)} alt={title} className="img" />
+    </Wrapper>
+  )
 }
 
 const Wrapper = styled.article`
