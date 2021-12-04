@@ -19,21 +19,21 @@ export const query = graphql`
   {
     allMdx(sort: { fields: frontmatter___date, order: DESC }) {
       nodes {
-        id
+        excerpt
         frontmatter {
           title
           author
           category
           readTime
-          slug
           date(formatString: "MMMM, Do YYYY")
+          slug
           image {
-            childrenImageSharp {
+            childImageSharp {
               gatsbyImageData
             }
           }
         }
-        excerpt
+        id
       }
     }
   }

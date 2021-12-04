@@ -7,7 +7,6 @@ import styled from 'styled-components'
 
 const Post = ({ excerpt, frontmatter }) => {
   const { title, image, slug, date, category, readTime } = frontmatter
-  console.log(image)
   return (
     <Wrapper>
       <GatsbyImage image={getImage(image)} alt={title} className="img" />
@@ -93,7 +92,6 @@ const Wrapper = styled.article`
     align-items: center;
     justify-content: space-between;
     color: var(--clr-grey-5);
-
     & .date {
       display: flex;
       align-items: center;
