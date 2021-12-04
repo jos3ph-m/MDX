@@ -7,6 +7,7 @@ import styled from 'styled-components'
 
 const Post = ({ excerpt, frontmatter }) => {
   const { title, image, slug, date, category, readTime } = frontmatter
+  console.log(image)
   return (
     <Wrapper>
       <GatsbyImage image={getImage(image)} alt={title} className="img" />
