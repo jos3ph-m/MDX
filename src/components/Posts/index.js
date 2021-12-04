@@ -12,6 +12,7 @@ const Posts = ({ posts, title }) => {
             return <Post key={post.id} {...post} />
           })}
         </article>
+        {/* banner column */}
         <article>
           <Banner />
         </article>

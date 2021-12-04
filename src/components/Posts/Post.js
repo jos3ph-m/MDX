@@ -20,7 +20,7 @@ const Post = ({ excerpt, frontmatter }) => {
         </Link>
         <footer>
           <span className="date">
-            <FaRegClock className="icon"></FaRegClock>
+            <FaRegClock className="icon" />
             {date}
           </span>
           <span>{readTime} min read</span>
